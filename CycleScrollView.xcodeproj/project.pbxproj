@@ -14,6 +14,22 @@
 		D264E4E921F2E5C9000FED84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D264E4E721F2E5C9000FED84 /* LaunchScreen.storyboard */; };
 		D264E4F421F2E5C9000FED84 /* CycleScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E4F321F2E5C9000FED84 /* CycleScrollViewTests.swift */; };
 		D264E4FF21F2E5C9000FED84 /* CycleScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E4FE21F2E5C9000FED84 /* CycleScrollViewUITests.swift */; };
+		D264E51121F2EC23000FED84 /* CycleScrollViewOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E50D21F2EC23000FED84 /* CycleScrollViewOptions.swift */; };
+		D264E51221F2EC23000FED84 /* CycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E50F21F2EC23000FED84 /* CycleCollectionViewCell.swift */; };
+		D264E51321F2EC23000FED84 /* CycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51021F2EC23000FED84 /* CycleScrollView.swift */; };
+		D264E52121F2EC96000FED84 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51521F2EC96000FED84 /* UIImageView+Extension.swift */; };
+		D264E52221F2EC96000FED84 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51621F2EC96000FED84 /* UIDevice+Extension.swift */; };
+		D264E52321F2EC96000FED84 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51721F2EC96000FED84 /* UIColor+Extension.swift */; };
+		D264E52421F2EC96000FED84 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51821F2EC96000FED84 /* UILabel+Extension.swift */; };
+		D264E52521F2EC96000FED84 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51921F2EC96000FED84 /* UIButton+Extension.swift */; };
+		D264E52621F2EC96000FED84 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51A21F2EC96000FED84 /* UIView+Extension.swift */; };
+		D264E52721F2EC96000FED84 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51B21F2EC96000FED84 /* UIImage+Extension.swift */; };
+		D264E52921F2EC96000FED84 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51D21F2EC96000FED84 /* String+Extension.swift */; };
+		D264E52A21F2EC96000FED84 /* UIScrollView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51E21F2EC96000FED84 /* UIScrollView+Extension.swift */; };
+		D264E52B21F2EC96000FED84 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E51F21F2EC96000FED84 /* UITextField+Extension.swift */; };
+		D264E52C21F2EC96000FED84 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E52021F2EC96000FED84 /* Array+Extension.swift */; };
+		D264E53721F2FB32000FED84 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D264E53621F2FB32000FED84 /* Macros.swift */; };
+		FA8B28D4388B165DD572A681 /* libPods-CycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95D9778FA78768C0A1318753 /* libPods-CycleScrollView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4709F704C01BB33C5F1FE44E /* Pods-CycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-CycleScrollView/Pods-CycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
+		49444C356A827E75CE6AD784 /* Pods-CycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CycleScrollView/Pods-CycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		95D9778FA78768C0A1318753 /* libPods-CycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D264E4DB21F2E5C8000FED84 /* CycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D264E4DE21F2E5C8000FED84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D264E4E021F2E5C8000FED84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +66,21 @@
 		D264E4FA21F2E5C9000FED84 /* CycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D264E4FE21F2E5C9000FED84 /* CycleScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleScrollViewUITests.swift; sourceTree = "<group>"; };
 		D264E50021F2E5C9000FED84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D264E50D21F2EC23000FED84 /* CycleScrollViewOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleScrollViewOptions.swift; sourceTree = "<group>"; };
+		D264E50F21F2EC23000FED84 /* CycleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleCollectionViewCell.swift; sourceTree = "<group>"; };
+		D264E51021F2EC23000FED84 /* CycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleScrollView.swift; sourceTree = "<group>"; };
+		D264E51521F2EC96000FED84 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		D264E51621F2EC96000FED84 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		D264E51721F2EC96000FED84 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D264E51821F2EC96000FED84 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		D264E51921F2EC96000FED84 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		D264E51A21F2EC96000FED84 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D264E51B21F2EC96000FED84 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		D264E51D21F2EC96000FED84 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		D264E51E21F2EC96000FED84 /* UIScrollView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Extension.swift"; sourceTree = "<group>"; };
+		D264E51F21F2EC96000FED84 /* UITextField+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		D264E52021F2EC96000FED84 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		D264E53621F2FB32000FED84 /* Macros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8B28D4388B165DD572A681 /* libPods-CycleScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +109,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		256F51698AC3B585E8FBC9C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49444C356A827E75CE6AD784 /* Pods-CycleScrollView.debug.xcconfig */,
+				4709F704C01BB33C5F1FE44E /* Pods-CycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3972468DE134796C5482DECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95D9778FA78768C0A1318753 /* libPods-CycleScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D264E4D221F2E5C8000FED84 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				D264E4F221F2E5C9000FED84 /* CycleScrollViewTests */,
 				D264E4FD21F2E5C9000FED84 /* CycleScrollViewUITests */,
 				D264E4DC21F2E5C8000FED84 /* Products */,
+				256F51698AC3B585E8FBC9C2 /* Pods */,
+				3972468DE134796C5482DECD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +151,11 @@
 		D264E4DD21F2E5C8000FED84 /* CycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				D264E51421F2EC96000FED84 /* Category */,
+				D264E50C21F2EC23000FED84 /* CycleScrollView */,
 				D264E4DE21F2E5C8000FED84 /* AppDelegate.swift */,
 				D264E4E021F2E5C8000FED84 /* ViewController.swift */,
+				D264E53621F2FB32000FED84 /* Macros.swift */,
 				D264E4E221F2E5C8000FED84 /* Main.storyboard */,
 				D264E4E521F2E5C9000FED84 /* Assets.xcassets */,
 				D264E4E721F2E5C9000FED84 /* LaunchScreen.storyboard */,
@@ -125,6 +182,34 @@
 			path = CycleScrollViewUITests;
 			sourceTree = "<group>";
 		};
+		D264E50C21F2EC23000FED84 /* CycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				D264E50D21F2EC23000FED84 /* CycleScrollViewOptions.swift */,
+				D264E50F21F2EC23000FED84 /* CycleCollectionViewCell.swift */,
+				D264E51021F2EC23000FED84 /* CycleScrollView.swift */,
+			);
+			path = CycleScrollView;
+			sourceTree = "<group>";
+		};
+		D264E51421F2EC96000FED84 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D264E51521F2EC96000FED84 /* UIImageView+Extension.swift */,
+				D264E51621F2EC96000FED84 /* UIDevice+Extension.swift */,
+				D264E51721F2EC96000FED84 /* UIColor+Extension.swift */,
+				D264E51821F2EC96000FED84 /* UILabel+Extension.swift */,
+				D264E51921F2EC96000FED84 /* UIButton+Extension.swift */,
+				D264E51A21F2EC96000FED84 /* UIView+Extension.swift */,
+				D264E51B21F2EC96000FED84 /* UIImage+Extension.swift */,
+				D264E51D21F2EC96000FED84 /* String+Extension.swift */,
+				D264E51E21F2EC96000FED84 /* UIScrollView+Extension.swift */,
+				D264E51F21F2EC96000FED84 /* UITextField+Extension.swift */,
+				D264E52021F2EC96000FED84 /* Array+Extension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D264E50321F2E5C9000FED84 /* Build configuration list for PBXNativeTarget "CycleScrollView" */;
 			buildPhases = (
+				9606A0BE798583CFE1B4D794 /* [CP] Check Pods Manifest.lock */,
 				D264E4D721F2E5C8000FED84 /* Sources */,
 				D264E4D821F2E5C8000FED84 /* Frameworks */,
 				D264E4D921F2E5C8000FED84 /* Resources */,
@@ -251,13 +337,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9606A0BE798583CFE1B4D794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CycleScrollView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D264E4D721F2E5C8000FED84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D264E52621F2EC96000FED84 /* UIView+Extension.swift in Sources */,
+				D264E52121F2EC96000FED84 /* UIImageView+Extension.swift in Sources */,
+				D264E52221F2EC96000FED84 /* UIDevice+Extension.swift in Sources */,
+				D264E52A21F2EC96000FED84 /* UIScrollView+Extension.swift in Sources */,
+				D264E53721F2FB32000FED84 /* Macros.swift in Sources */,
+				D264E52B21F2EC96000FED84 /* UITextField+Extension.swift in Sources */,
+				D264E52721F2EC96000FED84 /* UIImage+Extension.swift in Sources */,
+				D264E51121F2EC23000FED84 /* CycleScrollViewOptions.swift in Sources */,
+				D264E52521F2EC96000FED84 /* UIButton+Extension.swift in Sources */,
+				D264E52C21F2EC96000FED84 /* Array+Extension.swift in Sources */,
+				D264E51321F2EC23000FED84 /* CycleScrollView.swift in Sources */,
+				D264E52921F2EC96000FED84 /* String+Extension.swift in Sources */,
 				D264E4E121F2E5C8000FED84 /* ViewController.swift in Sources */,
 				D264E4DF21F2E5C8000FED84 /* AppDelegate.swift in Sources */,
+				D264E51221F2EC23000FED84 /* CycleCollectionViewCell.swift in Sources */,
+				D264E52321F2EC96000FED84 /* UIColor+Extension.swift in Sources */,
+				D264E52421F2EC96000FED84 /* UILabel+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +556,7 @@
 		};
 		D264E50421F2E5C9000FED84 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49444C356A827E75CE6AD784 /* Pods-CycleScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +574,7 @@
 		};
 		D264E50521F2E5C9000FED84 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4709F704C01BB33C5F1FE44E /* Pods-CycleScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
